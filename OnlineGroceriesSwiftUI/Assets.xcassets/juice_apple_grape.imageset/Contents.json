@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "juice_apple_grape.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

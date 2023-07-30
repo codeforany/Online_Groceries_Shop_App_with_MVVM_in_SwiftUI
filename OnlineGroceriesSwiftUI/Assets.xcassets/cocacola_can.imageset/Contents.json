@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "cocacola_can.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

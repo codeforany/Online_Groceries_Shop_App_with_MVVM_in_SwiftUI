@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "dairy_eggs.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "cooking_oil.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

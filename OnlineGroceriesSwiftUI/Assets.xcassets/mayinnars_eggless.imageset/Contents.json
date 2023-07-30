@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "mayinnars_eggless.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
