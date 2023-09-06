@@ -26,7 +26,23 @@ Native iOS Development: Develop the app natively for the best user experience on
 - [Youtube Channel Subscribe: @codeforany](https://www.youtube.com/channel/UCdQTp9wRK5vAOlEQZf9PHSg?sub_confirmation=1)
 
 - [Youtube Video Part-1: App Induction, Sign Up Flow UI](https://youtu.be/YHrJQGKWJHE)
-
+- [Youtube Video Part-2: Login With Api Calling ](https://youtu.be/nqMhUCivpRo)
+- [Youtube Video Part-3: Sign Up](https://youtu.be/KpSuskRHXAQ)
+- [Youtube Video Part-4: Bottom TabView & Home UI](https://youtu.be/5kS8zhxOtqM)
+- [Youtube Video Part-5: Home Screen with API Calling & Data Model](https://youtu.be/YHrJQGKWJHE)
+- [Youtube Video Part-6: Product Detail Screen API Calling & Data Set](https://youtu.be/zluByNf_pxA)
+- [Youtube Video Part-7: Favourite List Screen API Calling & Data Set](https://youtu.be/xWOfxGktReU)
+- [Youtube Video Part-8: Explore List & Items Screen with API Calling & Data Set](https://youtu.be/go-3Fxmq7Aw)
+- [Youtube Video Part-9: User Cart Management Operations with APIs Calling & Data Set](https://youtu.be/4TP1ed-RaCo)
+- [Youtube Video Part-10: Account Settings, Address, Payment & More](https://youtu.be/1hyHUWOjgkU)
+- [Youtube Video Part-11: Add & Update Delivery Address with APIs Calling & Data Set](https://youtu.be/ml7qsS24ggs)
+- [Youtube Video Part-12: Promo Codes List with API Calling & Data Set](https://youtu.be/P7-n140Y6WE)
+- [Youtube Video Part-13: Payment Methods Management with API Calling & Data Set](https://youtu.be/ORuU8UIoV6g)
+- [Youtube Video Part-14: Checkout & Order Placement with Promo Code API Calling & Data Set](https://youtu.be/2LzlwjD0ql8)
+- [Youtube Video Part-15: My Orders List  with API Calling & Data Set](https://youtu.be/5NaFCuhit_Q)
+- [Youtube Video Part-16: My Orders Detail Screen with API Calling & Data Set](https://youtu.be/y0rACnICPiA)
+- [Youtube Video Part-17: Notification, My Details with API Calling & Data Set](https://youtu.be/0W7eM6-iy5w)
+- [Youtube Video Part-18: Forgot Password, Verification API Calling & Data Set](https://youtu.be/7ynficrnv5Y)
 
 UI UX App Design by: [Afsar Hossen](https://dribbble.com/imshuvo97)
 
