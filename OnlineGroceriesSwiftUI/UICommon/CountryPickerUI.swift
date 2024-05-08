@@ -7,8 +7,6 @@
 
 import SwiftUI
 import CountryPicker
-
-
 struct CountryPickerUI: UIViewControllerRepresentable {
     
     @Binding var country: Country?

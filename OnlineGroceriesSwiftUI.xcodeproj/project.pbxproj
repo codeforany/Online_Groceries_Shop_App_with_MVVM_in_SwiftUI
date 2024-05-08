@@ -92,6 +92,7 @@
 		CBEC7E262A8605A000D41C37 /* PromoCodeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEC7E252A86059F00D41C37 /* PromoCodeViewModel.swift */; };
 		CBEC7E282A86061E00D41C37 /* PromoCodeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEC7E272A86061E00D41C37 /* PromoCodeModel.swift */; };
 		CBEC7E2A2A86076500D41C37 /* PromoCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEC7E292A86076500D41C37 /* PromoCodeView.swift */; };
+		CBFE45EA2AB8192600751656 /* OTPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFE45E92AB8192600751656 /* OTPTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -199,6 +200,7 @@
 		CBEC7E252A86059F00D41C37 /* PromoCodeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoCodeViewModel.swift; sourceTree = "<group>"; };
 		CBEC7E272A86061E00D41C37 /* PromoCodeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoCodeModel.swift; sourceTree = "<group>"; };
 		CBEC7E292A86076500D41C37 /* PromoCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoCodeView.swift; sourceTree = "<group>"; };
+		CBFE45E92AB8192600751656 /* OTPTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -420,6 +422,7 @@
 				CBC7477D2A76D29100DD527C /* RoundButton.swift */,
 				CBC747842A76D95500DD527C /* CountryPickerUI.swift */,
 				CBD6906D2A78FDE1002EE6D3 /* LineTextField.swift */,
+				CBFE45E92AB8192600751656 /* OTPTextField.swift */,
 				CBD6906F2A7904B8002EE6D3 /* ServiceCall.swift */,
 				CBD690712A790935002EE6D3 /* Globs.swift */,
 				CB165DBB2A7B5FAF00A672DE /* TabButton.swift */,
@@ -672,6 +675,7 @@
 				CB8E0E3F2A8200BD0018A4FF /* CartItemModel.swift in Sources */,
 				CBC747802A76D33400DD527C /* SignInView.swift in Sources */,
 				CB7EF4F42A7E66B000DA6DA6 /* ProductDetailView.swift in Sources */,
+				CBFE45EA2AB8192600751656 /* OTPTextField.swift in Sources */,
 				CBC71C262A89F90100862CD1 /* MyOrdersViewModel.swift in Sources */,
 				CBD6906C2A78FCA8002EE6D3 /* MainViewModel.swift in Sources */,
 				CB9D6EBB2A8D43ED00669923 /* ForgotPasswordView.swift in Sources */,

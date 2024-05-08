@@ -22,15 +22,11 @@ struct OTPView: View {
             
             VStack{
                 
-                
-                
                 Text("Enter your 4-digit code")
                     .font(.customfont(.semibold, fontSize: 26))
                     .foregroundColor(.primaryText)
                     .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
                     .padding(.bottom, 8)
-                
-                
                 
                 LineTextField( title: "Code", placholder: "- - - -", txt: $forgotVM.txtResetCode, keyboardType: .phonePad)
                     .padding(.bottom, .screenWidth * 0.07)
