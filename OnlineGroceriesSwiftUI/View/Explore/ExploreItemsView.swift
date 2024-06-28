@@ -15,7 +15,6 @@ struct ExploreItemsView: View {
     var columns = [
         GridItem(.flexible(), spacing: 15),
         GridItem(.flexible(), spacing: 15)
-        
     ]
     
     var body: some View {
@@ -23,30 +22,32 @@ struct ExploreItemsView: View {
             VStack {
                 
                 HStack{
-                    Button {
-                        mode.wrappedValue.dismiss()
-                    } label: {
-                        Image("back")
-                            .resizable()
-                            .scaledToFit()
-                            .frame(width: 25, height: 25)
-                    }
                     
+                    EmptyView()
+                        .frame(width: 40, height: 40)
                     
-                    Text( itemsVM.cObj.name )
+                    Spacer()
+                    
+                    Text("Category")
                         .font(.customfont(.bold, fontSize: 20))
-                        .frame(minWidth: 0, maxWidth: .infinity, alignment: .center)
-                        
+                        .frame(height: 46)
+                    Spacer()
                     
-                    Button {
-                    } label: {
-                        Image("filter_ic")
+                    Button(action: {
+                        
+                    }, label: {
+                        Image("add_green")
                             .resizable()
                             .scaledToFit()
                             .frame(width: 20, height: 20)
-                    }
-
+                    })
+                    .frame(width: 40, height: 40)
+                    
                 }
+                .padding(.top, .topInsets)
+                .padding(.horizontal, 20)
+                
+                
                 
                 ScrollView {
                     LazyVGrid(columns: columns,  spacing:15) {
