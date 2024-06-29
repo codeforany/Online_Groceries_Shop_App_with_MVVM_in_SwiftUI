@@ -10,9 +10,14 @@ import SDWebImageSwiftUI
 
 struct OrderItemRow: View {
     @State var pObj: OrderItemModel = OrderItemModel(dict: [:])
+    var showReviewBotton = false
+    var didTap: ( ()->() )?
     
     var body: some View {
-        
+            
+        VStack {
+            
+       
             HStack(spacing: 15){
                 WebImage(url: URL(string: pObj.image ))
                     .resizable()
@@ -63,6 +68,15 @@ struct OrderItemRow: View {
                 
                 
             }
+            
+            if showReviewBotton {
+                RoundButton(title: "Write a review" ) {
+                    didTap?()
+                }
+            }
+           
+            
+        }
             .padding(15)
             .background(Color.white)
             .cornerRadius(5)

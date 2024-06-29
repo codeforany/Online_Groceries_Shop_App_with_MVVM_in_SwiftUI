@@ -30,6 +30,7 @@ struct ProductModel:  Identifiable, Equatable {
     var startDate: Date = Date()
     var endDate: Date = Date()
     var isFav: Bool = false
+    var avgRating: Int = 0
     
 
     init(dict: NSDictionary) {
@@ -56,6 +57,7 @@ struct ProductModel:  Identifiable, Equatable {
         self.totalPrice = dict.value(forKey: "total_price") as? Double ?? 0
         self.startDate = (dict.value(forKey: "start_date") as? String ?? "").stringDateToDate() ?? Date()
         self.endDate = (dict.value(forKey: "end_date") as? String ?? "").stringDateToDate() ?? Date()
+        self.avgRating =  Int(dict.value(forKey: "avg_rating") as? Double ?? 0.0)
     }
     
     static func == (lhs: ProductModel, rhs: ProductModel) -> Bool {

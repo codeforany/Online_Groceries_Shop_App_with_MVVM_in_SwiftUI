@@ -15,6 +15,8 @@
 		CB05BDEA2A7A1C5800A3BAAB /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB05BDE92A7A1C5800A3BAAB /* SignUpView.swift */; };
 		CB05BDEC2A7A21F900A3BAAB /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB05BDEB2A7A21F900A3BAAB /* UserModel.swift */; };
 		CB05BDEF2A7A270100A3BAAB /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB05BDEE2A7A270100A3BAAB /* MainTabView.swift */; };
+		CB13E6512C2F2534002A6D70 /* TextArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB13E6502C2F2534002A6D70 /* TextArea.swift */; };
+		CB13E6532C2F3641002A6D70 /* WriteReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB13E6522C2F3641002A6D70 /* WriteReviewView.swift */; };
 		CB165DB12A7B578100A672DE /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB165DB02A7B578100A672DE /* HomeViewModel.swift */; };
 		CB165DB42A7B583B00A672DE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB165DB32A7B583B00A672DE /* HomeView.swift */; };
 		CB165DB82A7B58C100A672DE /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB165DB72A7B58C100A672DE /* ExploreView.swift */; };
@@ -121,6 +123,8 @@
 		CB05BDE92A7A1C5800A3BAAB /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		CB05BDEB2A7A21F900A3BAAB /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		CB05BDEE2A7A270100A3BAAB /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		CB13E6502C2F2534002A6D70 /* TextArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextArea.swift; sourceTree = "<group>"; };
+		CB13E6522C2F3641002A6D70 /* WriteReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteReviewView.swift; sourceTree = "<group>"; };
 		CB165DB02A7B578100A672DE /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		CB165DB32A7B583B00A672DE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		CB165DB72A7B58C100A672DE /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
@@ -270,6 +274,7 @@
 				CB81AA872A8BF51A0069CA84 /* NotificationView.swift */,
 				CB81AA8B2A8BF9D00069CA84 /* MyDetailsView.swift */,
 				CB81AA8D2A8BFDA80069CA84 /* ChangePasswordView.swift */,
+				CB13E6522C2F3641002A6D70 /* WriteReviewView.swift */,
 			);
 			path = Account;
 			sourceTree = "<group>";
@@ -435,6 +440,7 @@
 				CB8E0E432A8204C80018A4FF /* CartItemRow.swift */,
 				CB7C29502A835FC600A1E404 /* AccountRow.swift */,
 				CB94C9A82A8B3F94002F1597 /* OrderItemRow.swift */,
+				CB13E6502C2F2534002A6D70 /* TextArea.swift */,
 			);
 			path = UICommon;
 			sourceTree = "<group>";
@@ -628,6 +634,7 @@
 				CBC6D4952A801BCA00BAA917 /* ExploreCategoryModel.swift in Sources */,
 				CB9D6EBD2A8D449A00669923 /* OTPView.swift in Sources */,
 				CB6C33312A7CB71C007CECA2 /* TypeModel.swift in Sources */,
+				CB13E6532C2F3641002A6D70 /* WriteReviewView.swift in Sources */,
 				CBEC7E282A86061E00D41C37 /* PromoCodeModel.swift in Sources */,
 				CB6C332F2A7CB279007CECA2 /* ProductModel.swift in Sources */,
 				CB165DB42A7B583B00A672DE /* HomeView.swift in Sources */,
@@ -671,6 +678,7 @@
 				CBC71C282A89F97200862CD1 /* MyOrderModel.swift in Sources */,
 				CBE476C12A7FC48A00AF4C53 /* FavouriteRow.swift in Sources */,
 				CBEC7E2A2A86076500D41C37 /* PromoCodeView.swift in Sources */,
+				CB13E6512C2F2534002A6D70 /* TextArea.swift in Sources */,
 				CB94C9AB2A8B4490002F1597 /* OrderItemModel.swift in Sources */,
 				CB8E0E3F2A8200BD0018A4FF /* CartItemModel.swift in Sources */,
 				CBC747802A76D33400DD527C /* SignInView.swift in Sources */,

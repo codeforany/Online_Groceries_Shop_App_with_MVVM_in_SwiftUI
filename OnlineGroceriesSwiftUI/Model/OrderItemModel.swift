@@ -30,6 +30,8 @@ struct OrderItemModel:  Identifiable, Equatable {
     var startDate: Date = Date()
     var endDate: Date = Date()
     var isFav: Bool = false
+    var rating: Int = 0
+    var message: String = ""
     
 
     init(dict: NSDictionary) {
@@ -56,6 +58,9 @@ struct OrderItemModel:  Identifiable, Equatable {
         self.totalPrice = dict.value(forKey: "total_price") as? Double ?? 0
         self.startDate = (dict.value(forKey: "start_date") as? String ?? "").stringDateToDate() ?? Date()
         self.endDate = (dict.value(forKey: "end_date") as? String ?? "").stringDateToDate() ?? Date()
+        
+        self.rating =  Int(dict.value(forKey: "rating") as? Double ?? 0.0)
+        self.message = dict.value(forKey: "message") as? String ?? ""
     }
     
     static func == (lhs: OrderItemModel, rhs: OrderItemModel) -> Bool {

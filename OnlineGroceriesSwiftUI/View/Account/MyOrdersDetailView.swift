@@ -11,6 +11,7 @@ import SDWebImageSwiftUI
 struct MyOrdersDetailView: View {
     @Environment(\.presentationMode) var mode: Binding<PresentationMode>
     @StateObject var detailVM: MyOrderDetailViewModel = MyOrderDetailViewModel(prodObj: MyOrderModel(dict: [:]) )
+    @State var showWriteReview = false
     
     var body: some View {
         ZStack{
@@ -87,7 +88,9 @@ struct MyOrdersDetailView: View {
                 
                 LazyVStack {
                     ForEach(detailVM.listArr, id: \.id) { pObj in
-                        OrderItemRow(pObj: pObj)
+                        OrderItemRow(pObj: pObj, showReviewBotton: detailVM.pObj.orderStatus == 3 && pObj.rating == 0) {
+                            showWriteReview = true
+                        }
                     }
                 }
                 
@@ -191,6 +194,9 @@ struct MyOrdersDetailView: View {
             
             Alert(title: Text(Globs.AppName), message: Text(detailVM.errorMessage)  , dismissButton: .default(Text("Ok"))  )
         })
+        .background( NavigationLink(destination: WriteReviewView(), isActive: $showWriteReview, label: {
+            EmptyView()
+        }) )
         .navigationTitle("")
         .navigationBarBackButtonHidden(true)
         .navigationBarHidden(true)
